@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © GhostUnicorns spa. All rights reserved.
+  ~ See LICENSE and/or COPYING.txt for license details.
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="GhostUnicorns\CrtActivity\Api\ActivityRepositoryInterface" type="GhostUnicorns\CrtActivity\Model\ActivityRepository"/>
+    <preference for="GhostUnicorns\CrtActivity\Api\Data\ActivityInterface" type="GhostUnicorns\CrtActivity\Model\ActivityModel"/>
+    <preference for="GhostUnicorns\CrtActivity\Api\Data\ActivitySearchResultInterface" type="GhostUnicorns\CrtActivity\Model\ActivitySearchResult"/>
+</config>
